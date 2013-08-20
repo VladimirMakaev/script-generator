@@ -22,12 +22,10 @@
 }
 
 @section scripts{
-            <script type="text/javascript">
-                $(function () {
-                    $(".date-picker").datepicker();
-                });
-            </script>
-        }
+    <script type="text/javascript">
+        Init({ "DatePickerSelector": ".date-picker", "AddRangeLinkSelector": "#addVisa", "RangeTemplateSelector": ".rangeTemplate:first", "PreviousVisasContainerSelector": "#previousVisas" });
+    </script>
+}
 
 @using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
