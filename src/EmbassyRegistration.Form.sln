@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaApplicationForm", "VisaApplicationForm\VisaApplicationForm.csproj", "{8537DD44-643E-45E3-9C41-204428AC05CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbassyRegistration.Form.Web", "VisaApplicationForm\EmbassyRegistration.Form.Web.csproj", "{8537DD44-643E-45E3-9C41-204428AC05CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
