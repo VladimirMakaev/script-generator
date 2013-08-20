@@ -1,0 +1,13 @@
+﻿@model VisaApplicationForm.Models.RangeInfo
+
+<ol>
+    <li>
+        @Html.LabelFor(m => m.From)
+        @Html.EditorFor(m => m.From, "Date")
+    </li>
+    <li>
+         @Html.LabelFor(m => m.To)
+        @Html.EditorFor(m => m.To, "Date")
+    </li>
+</ol>
+

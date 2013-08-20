@@ -1,0 +1,52 @@
+﻿@model VisaApplicationForm.Models.ApplicationModel
+
+<fieldset>
+    <legend></legend>
+    <h2>Персольная информация</h2>
+    <ol>
+        <li>
+            @Html.LabelFor(m => m.LastName)
+            @Html.TextBoxFor(m => m.LastName)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.FirstName)
+            @Html.TextBoxFor(m => m.FirstName)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.DateOfBirth)
+            @Html.EditorFor(m => m.DateOfBirth, "Date")
+        </li>
+        <li>
+            @Html.LabelFor(m => m.BithPlace)
+            @Html.TextBoxFor(m => m.BithPlace)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.Gender)
+            @Html.TextBoxFor(m => m.Gender)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.MaritalStatus)
+            @Html.TextBoxFor(m => m.MaritalStatus)
+        </li>
+    </ol>
+    @Html.EditorFor(model => model.PassportInfo)
+    <h2>Адрес</h2>
+    @Html.EditorFor(model => model.Address)
+    @Html.EditorFor(model => model.JobInfo)
+    <h2>Предыдущие шенгены за последние 3 года</h2>
+    <ol>
+        @for (int i = 0; i < Model.PreviousVisas.Count; i++)
+        {
+            <li>
+                @Html.LabelFor(model => model.PreviousVisas[i].From)
+                @Html.EditorFor(model => model.PreviousVisas[i].From, "Date")
+            </li>
+            <li>
+                @Html.LabelFor(model => model.PreviousVisas[i].To)
+                @Html.EditorFor(model => model.PreviousVisas[i].To, "Date")
+            </li>
+        }
+    </ol>
+    <h2>Даты визы</h2>
+    @Html.EditorFor(model => model.VisaDates)
+</fieldset>

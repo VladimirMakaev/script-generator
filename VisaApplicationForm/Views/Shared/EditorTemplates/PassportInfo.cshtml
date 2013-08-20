@@ -1,0 +1,26 @@
+﻿@model VisaApplicationForm.Models.PassportInfo
+
+<h2>Паспортная информация</h2>
+<ol>
+    <li>
+        @Html.LabelFor(m => m.PersonalNumber)
+        @Html.TextBoxFor(m => m.PersonalNumber)
+    </li>
+    <li>
+        @Html.LabelFor(m => m.PasportNumber)
+        @Html.TextBoxFor(m => m.PasportNumber)
+    </li>
+    <li>
+        @Html.LabelFor(m => m.PassportStartDate)
+        @Html.EditorFor(m => m.PassportStartDate, "Date")
+    </li>
+    <li>
+        @Html.LabelFor(m => m.PassportEndDate)
+        @Html.EditorFor(m => m.PassportEndDate, "Date")
+    </li>
+     <li>
+        @Html.LabelFor(m => m.IssuedBy)
+        @Html.TextBoxFor(m => m.IssuedBy)
+    </li>
+</ol>
+

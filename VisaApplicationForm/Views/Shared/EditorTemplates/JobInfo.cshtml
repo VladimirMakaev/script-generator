@@ -1,0 +1,10 @@
+﻿@model VisaApplicationForm.Models.JobInfo
+
+<h2>Информация о работе</h2>
+<ol>
+    <li>
+        @Html.LabelFor(m => m.JobType)
+        @Html.TextBoxFor(m => m.JobType)
+    </li>
+</ol>
+@Html.EditorFor(model => model.Address)
