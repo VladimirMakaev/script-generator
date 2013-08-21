@@ -1,0 +1,29 @@
+﻿@model EmbassyRegistration.Form.Engine.Models.PersonalInfo
+
+<ol>
+        <li>
+            @Html.LabelFor(m => m.LastName)
+            @Html.TextBoxFor(m => m.LastName)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.FirstName)
+            @Html.TextBoxFor(m => m.FirstName)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.DateOfBirth)
+            @Html.EditorFor(m => m.DateOfBirth, "Date")
+        </li>
+        <li>
+            @Html.LabelFor(m => m.BithPlace)
+            @Html.TextBoxFor(m => m.BithPlace)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.Gender)
+            @Html.TextBoxFor(m => m.Gender)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.MaritalStatus)
+            @Html.TextBoxFor(m => m.MaritalStatus)
+        </li>
+    </ol>
+

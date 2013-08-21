@@ -188,11 +188,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\Address.cs" />
-    <Compile Include="Models\ApplicationModel.cs" />
-    <Compile Include="Models\JobInfo.cs" />
-    <Compile Include="Models\PassportInfo.cs" />
-    <Compile Include="Models\RangeInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -313,12 +308,19 @@
     <Content Include="Views\Shared\EditorTemplates\Address.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\JobInfo.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\RangeInfo.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\PersonalInfo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmbassyRegistration.Form.Engine\EmbassyRegistration.Form.Engine.csproj">
+      <Project>{4daea0e6-522d-4059-94f7-9ec15cb2130f}</Project>
+      <Name>EmbassyRegistration.Form.Engine</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

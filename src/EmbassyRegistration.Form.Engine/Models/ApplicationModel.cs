@@ -1,36 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace VisaApplicationForm.Models
+namespace EmbassyRegistration.Form.Engine.Models
 {
     public class ApplicationModel
     {
-        public string LastName
-        {
-            get; set;
-        }
-
-        public string FirstName
-        {
-            get; set;
-        }
-
-        public DateTime? DateOfBirth
-        {
-            get; set;
-        }
-
-        public string BithPlace
-        {
-            get; set;
-        }
-
-        public string Gender
-        {
-            get; set;
-        }
-
-        public string MaritalStatus
+        public PersonalInfo PersonalInfo
         {
             get; set;
         }

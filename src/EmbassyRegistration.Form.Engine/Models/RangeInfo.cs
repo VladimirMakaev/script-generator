@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VisaApplicationForm.Models
+namespace EmbassyRegistration.Form.Engine.Models
 {
     public class RangeInfo
     {

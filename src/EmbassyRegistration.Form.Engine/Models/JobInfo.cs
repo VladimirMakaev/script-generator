@@ -1,4 +1,4 @@
-﻿namespace VisaApplicationForm.Models
+﻿namespace EmbassyRegistration.Form.Engine.Models
 {
     public class JobInfo
     {

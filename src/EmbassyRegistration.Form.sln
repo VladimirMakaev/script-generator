@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbassyRegistration.Form.Web", "VisaApplicationForm\EmbassyRegistration.Form.Web.csproj", "{8537DD44-643E-45E3-9C41-204428AC05CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbassyRegistration.Form.Engine", "EmbassyRegistration.Form.Engine\EmbassyRegistration.Form.Engine.csproj", "{4DAEA0E6-522D-4059-94F7-9EC15CB2130F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{8537DD44-643E-45E3-9C41-204428AC05CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8537DD44-643E-45E3-9C41-204428AC05CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8537DD44-643E-45E3-9C41-204428AC05CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAEA0E6-522D-4059-94F7-9EC15CB2130F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAEA0E6-522D-4059-94F7-9EC15CB2130F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAEA0E6-522D-4059-94F7-9EC15CB2130F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAEA0E6-522D-4059-94F7-9EC15CB2130F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
