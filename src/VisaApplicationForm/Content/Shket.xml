@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://secure.e-konsulat.gov.pl/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id,'txtNazwisko')]</td>
+	<td>IVANOV</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id,'txtNazwiskoRodowe')]</td>
+	<td>IVANOV</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id,'txtImiona')]</td>
+	<td>IVAN</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span[contains(text(),'4. Дата рождения')]//ancestor::div[2]//input</td>
+	<td>1978-03-12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span[contains(text(),'5. Место рождения')]//ancestor::div[2]//input</td>
+	<td>REPUBLIC OF BELARUS</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[contains(@id, 'KrajUrodzenia')]</td>
+	<td>label=БЕЛАРУСЬ</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//span[contains(text(),'7. Гражданство (а) в настоящее время')]//ancestor::div[2]//select</td>
+	<td>label=БЕЛАРУСЬ</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//span[contains(text(),'8. Гражданство при рождении')]//ancestor::div[2]//select</td>
+	<td>label=БЕЛАРУСЬ</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span[contains(text(),'9. Пол')]//ancestor::div[2]//input[@value='M']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span[contains(text(),'10. Семейное положение')]//ancestor::div[2]//input[@value='KP']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[contains(@id, 'opiekunowie_chkNieDotyczy')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, 'NumerDowodu')]</td>
+	<td>3120378M045PB3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//label[text()='Обычный паспорт']//ancestor::td[1]//input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, 'NumerPaszportu')]</td>
+	<td>KB1231234</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, 'WydanyDnia')]</td>
+	<td>2005-03-12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, 'WaznyDo')]</td>
+	<td>2014-03-12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, 'WydanyPrzez')]</td>
+	<td>MINSK RAUS</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//span[contains(text(),'17. Домашний адрес')]//ancestor::td[1]//span[text()='Государство']//ancestor::tr[1]//select</td>
+	<td>label=БЕЛАРУСЬ</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span[contains(text(),'17. Домашний адрес')]//ancestor::td[1]//input[contains(@id,'StanProwincja')]</td>
+	<td>MINSK</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span[contains(text(),'17. Домашний адрес')]//ancestor::td[1]//input[contains(@id,'Miejscowosc')]</td>
+	<td>MINSK</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span[contains(text(),'17. Домашний адрес')]//ancestor::td[1]//input[contains(@id,'Adres')]</td>
+	<td>ul. Ivanova 7-49</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span[contains(text(),'17. Домашний адрес')]//ancestor::td[1]//input[contains(@id,'Kod')]</td>
+	<td>230002</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span[contains(text(),'17. Домашний адрес')]//ancestor::td[1]//input[contains(@id,'Email')]</td>
+	<td>ivanov@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span[contains(text(),'17. Домашний адрес')]//ancestor::td[1]//input[contains(@id,'TelefonPrefiks')]</td>
+	<td>375 29</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//span[contains(text(),'17. Домашний адрес')]//ancestor::td[1]//input[contains(@id,'TelefonNumer')]</td>
+	<td>3730327</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span[contains(text(),'18. Страна пребывания')]//ancestor::td[1]//input[@value='Nie']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[contains(@id, 'WykonywanyZawod')]</td>
+	<td>label=Информатик</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//label[text()='Работодатель']//ancestor::td[1]//input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//select</td>
+	<td>label=БЕЛАРУСЬ</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//input[contains(@id,'StanProwincja')]</td>
+	<td>MINSK</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//input[contains(@id,'Miejscowos')]</td>
+	<td>MINSK</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//input[contains(@id,'KodPocztowy')]</td>
+	<td>224001</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//input[contains(@id,'Email')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//input[contains(@id,'Adres')]</td>
+	<td>ul.Ivanova 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//input[contains(@id,'Prefix')]</td>
+	<td>8017</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//input[contains(@id,'Telefon')]</td>
+	<td>2230216</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//input[contains(@id,'Nazwa')]</td>
+	<td>Ivanov Entertaiment</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='Работодатель']//ancestor::tr[2]//input[contains(@id,'PrefiksFax')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//label[text()='Иная (указать)']//ancestor::td[1]//input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForEditable</td>
+	<td>//input[contains(@id,'CelPodrozy')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id,'CelPodrozy')]</td>
+	<td>ZAKUPY</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[contains(@id,'KrajDocelowy')]</td>
+	<td>label=ПОЛЬША</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//select[contains(@id,'PierwszyWjazd')]</td>
+	<td>label=ПОЛЬША</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//label[text()='Многократного въезда']//ancestor::td[1]//input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id,'kresPobytu')]</td>
+	<td>90</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[contains(text(),'Да. Срок действия')]//ancestor::td[1]//input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForEditable</td>
+	<td>//span[contains(text(),'выданные за последние три года')]//ancestor::tbody[1]//input[contains(@id,'txtDataOd')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, '0_txtDataOd')]</td>
+	<td>2013-06-21</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, '0_txtDataDo')]</td>
+	<td>2013-07-12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id,'DataWjazdu')]</td>
+	<td>2013-10-15</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id,'DataWyjazdu')]</td>
+	<td>2014-05-15</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[contains(@id, 'chkNiedotyczy28')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//label[text()='фирма']//ancestor::td[1]//input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForNotEditable</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'Nazwisko')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'Nazwa')]</td>
+	<td>Media Markt Polska Sp. Z O.O</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//select</td>
+	<td>label=ПОЛЬША</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'miejscowos')]</td>
+	<td>Bialystok</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'kod')]</td>
+	<td>15-265</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'adres')]</td>
+	<td>Bialystok, ul. Czeslawa Milosza 2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'prefikstel')]</td>
+	<td>085</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'tel') and not(contains(@id,'prefiks'))]</td>
+	<td>7473100</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'prefiksfax')]</td>
+	<td>085</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'fax') and not(contains(@id,'prefiks'))]</td>
+	<td>7473109</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//label[text()='фирма']//ancestor::tbody[2]//input[contains(@id,'Email')]</td>
+	<td>bialystok@mediamarkt.pl</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[contains(@id,'rbl35_0')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForEditable</td>
+	<td>//input[contains(@id,'Karty')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[contains(@id,'Karty')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[contains(@id, 'Gotowka')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[contains(@id, 'chkNieDotyczy43')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[contains(@id, 'Oswiadczenie1')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[contains(@id, 'Oswiadczenie2')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[contains(@id, 'Oswiadczenie3')]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

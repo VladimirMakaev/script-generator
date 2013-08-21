@@ -1,4 +1,6 @@
 ﻿using System.Web.Mvc;
+using EmbassyRegistration.Form.App_Start;
+using EmbassyRegistration.Form.Engine;
 using EmbassyRegistration.Form.Engine.Models;
 
 namespace VisaApplicationForm.Controllers
@@ -16,6 +18,9 @@ namespace VisaApplicationForm.Controllers
         [HttpPost]
         public ActionResult Index(ApplicationModel model)
         {
+            var generator = new ScriptGenerator(HttpContext.Server.MapPath(Configuration.TemplatePath), Configuration.ScriptsStoragePath);
+
+            generator.Generate(model);
             return RedirectToAction("Index");
         }
 

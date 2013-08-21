@@ -9,8 +9,6 @@ namespace EmbassyRegistration.Form.Engine.Factories
         {
             return new List<ListItem>
             {
-                new ListItem {Text = "Мужской", Value = "M"},
-                new ListItem {Text = "Женский", Value = "F"},
                 new ListItem {Text = "Административно-судебный служащий", Value = "35"},
                 new ListItem {Text = "Артист", Value = "05"},
                 new ListItem {Text = "Архитектор", Value = "02"},
