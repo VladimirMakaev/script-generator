@@ -6,10 +6,10 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using DotNetOpenAuth.AspNet;
+using EmbassyRegistration.Form.Models;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
 using VisaApplicationForm.Filters;
-using VisaApplicationForm.Models;
 
 namespace VisaApplicationForm.Controllers
 {

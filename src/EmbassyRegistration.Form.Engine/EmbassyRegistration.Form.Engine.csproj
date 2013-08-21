@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\GenderFactory.cs" />
+    <Compile Include="Factories\JobTypeFactory.cs" />
+    <Compile Include="Factories\MartialStatusFactory.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\ApplicationModel.cs" />
     <Compile Include="Models\JobInfo.cs" />

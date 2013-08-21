@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using EmbassyRegistration.Form.Engine.Factories;
 
 namespace EmbassyRegistration.Form.Engine.Models
 {
@@ -46,8 +47,16 @@ namespace EmbassyRegistration.Form.Engine.Models
             get; set;
         }
 
+        public List<ListItem> MartialStatusList
+        {
+            get;
+            set;
+        }
+
         public PersonalInfo()
         {
+            Genders = GenderFactory.GetGenders();
+            MartialStatusList = MartialStatusFactory.GetStatusList();
         }
     }
 }

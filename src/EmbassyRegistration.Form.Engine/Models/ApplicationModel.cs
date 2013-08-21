@@ -40,6 +40,9 @@ namespace EmbassyRegistration.Form.Engine.Models
             {
                 new RangeInfo()
             };
+
+            PersonalInfo = new PersonalInfo();
+            JobInfo = new JobInfo();
         }
     }
 }

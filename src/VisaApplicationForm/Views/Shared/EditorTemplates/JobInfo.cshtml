@@ -1,10 +1,11 @@
-﻿@model EmbassyRegistration.Form.Engine.Models.JobInfo
+﻿@using EmbassyRegistration.Form.App_Start
+@model EmbassyRegistration.Form.Engine.Models.JobInfo
 
 <h2>Информация о работе</h2>
 <ol>
     <li>
         @Html.LabelFor(m => m.JobType)
-        @Html.TextBoxFor(m => m.JobType)
+        @Html.DropDownListFor(m => m.JobType, ListItemHelper.ToSelectList(Model.JobTypes))
     </li>
 </ol>
 @Html.EditorFor(model => model.Address)
